@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+
+
+@font-face {
+    font-family: "Open Sans";
+    src: local('Open Sans') , url('../Fonts/open-sans-light.woff') format('woff2') ;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src:  local('Open Sans') , url('../Fonts/open-sans.woff') format('woff2') ;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src:  local('Open Sans') , url('../Fonts/open-sans-bold.woff') format('woff2') ;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+*:focus-visible{
+    border: 2px dashed  cornflowerblue;
+}
+
+.wrapper {
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.link {
+    color: #ffffff;
+}
+
+.title {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 68px;
+}
+
+.title_bold {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+.text-color {
+    color: #D22856;
+}
+
+.button {
+    border: 3px solid #ffffff;
+    border-radius: 29px;
+    outline: none;
+}
